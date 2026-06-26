@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Peba from './components/Peba'
+import RenderCondicional from './components/RenderCondicional'
 
 function App() {
   const [rendimento,setRenimento]= useState(12000)
@@ -20,6 +21,8 @@ function incrementarSalario(){
   return (
     <div className='cont-app'>
       <h1> Estados e outras coisas</h1>
+    <RenderCondicional />
+    <hr />
         <Peba />
         <hr />
 
